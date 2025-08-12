@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ZenSauna - Wellness & Spa</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="container header-container">
+      <h1 class="logo">ZenSauna</h1>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#about-us">About Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#help">Help</a></li>
+          <li><a href="#login">Login</a></li>
+          <li><a href="#signup" class="btn-signup">Sign Up</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="offer-section">
+      <div class="offer">
+        🎉 Grand Opening Special: <strong>20% OFF</strong> on ALL services for the first 2 days only!
+      </div>
+    </section>
+
+    <section class="services-section container">
+      <h2>Our Premium Services</h2>
+      <div class="services-grid">
+        <div class="service-box">
+          <h3>Herbal Detox Heat Room</h3>
+          <p>Detoxify with warm herbal infusions native to Tamil Nadu, enhancing your health and relaxation.</p>
+        </div>
+        <div class="service-box">
+          <h3>Authentic Ayurvedic Massage</h3>
+          <p>Restore balance with traditional Ayurvedic oils and expert therapeutic techniques.</p>
+        </div>
+        <div class="service-box">
+          <h3>Advanced Physiotherapy Care</h3>
+          <p>Relieve pain and improve mobility with personalized physiotherapy sessions by certified professionals.</p>
+        </div>
+        <div class="service-box">
+          <h3>Steam & Herbal Therapy</h3>
+          <p>Open your pores and revitalize your skin with aromatic steam infused with healing herbs.</p>
+        </div>
+        <div class="service-box">
+          <h3>Revitalizing Cold Plunge</h3>
+          <p>Energize muscles and boost circulation with invigorating cold plunge pools.</p>
+        </div>
+        <div class="service-box">
+          <h3>Wellness Yoga & Meditation</h3>
+          <p>Enhance your mind-body harmony with guided yoga and meditation sessions.</p>
+        </div>
+      </div>
+    </section>
+    <section class="details-section container">
+      <h2>Enter Your Details</h2>
+      <form id="details-form">
+        <input type="text" id="name" name="name" placeholder="Full Name" required />
+        <input type="tel" id="phone" name="phone" placeholder="Phone Number" required pattern="[0-9]{10}" />
+        <input type="text" id="otp" name="otp" placeholder="Enter OTP" required maxlength="6" />
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <section id="about-us" class="footer-about">
+        <h3>About Us</h3>
+        <p>ZenSauna is dedicated to bringing authentic wellness experiences to Tamil Nadu with traditional herbal therapies, modern physiotherapy, and holistic care. We believe in healing the body and mind with natural, time-tested methods in a clean, tranquil environment.</p>
+      </section>
+      <div class="thank-you">
+        <p>🙏 Thank you for visiting us! We look forward to welcoming you at ZenSauna.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
